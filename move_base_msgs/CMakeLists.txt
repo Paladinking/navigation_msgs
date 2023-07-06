@@ -14,15 +14,12 @@ add_message_files(
     msg
   FILES
     RecoveryStatus.msg
+    MoveBaseActionResult.msg
+    MoveBaseResult.msg
 )
 
 # actions
-add_action_files(
-  DIRECTORY
-    action
-  FILES
-    MoveBase.action
-)
+
 
 generate_messages(
   DEPENDENCIES
